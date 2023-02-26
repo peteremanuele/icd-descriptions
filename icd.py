@@ -28,9 +28,13 @@ def validate_length(icd_code, version):
     if version == 9:
         if len(icd_code) in range(3, 6):
             return 'Valid ICD-9 Length'
+        else:
+            return 'Not Valid ICD-9 Length'
     else:
         if len(icd_code) in range(3, 8):
             return 'Valid ICD-10 Length'
+        else:
+            return 'Not Valid ICD-10 Length'
 
 
 # Read in the CSV files as pandas DataFrames

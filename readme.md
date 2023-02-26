@@ -15,7 +15,7 @@ Given an ICD-10 code, this function returns its long description. If the code is
 
 ### `validate_length(icd_code, version)`
 
-Given an ICD code and its version (9 or 10), this function validates the length of the code and returns "Valid ICD-9 Length" or "Valid ICD-10 Length" accordingly. If the length is not valid, it returns None.
+Given an ICD code and its version (9 or 10), this function validates the length of the code and returns "Valid ICD-9 Length" or "Not Valid ICD Length" accordingly. 
 
 ## Usage
 
